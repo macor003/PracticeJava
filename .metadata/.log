@@ -1,0 +1,142 @@
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:26.873
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:29.698
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-10-24 14:44:31.978
+!MESSAGE An internal error occurred during: "InitRemoteEditJob".
+!STACK 0
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/RemoteSystemsTempFiles/.project' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:257)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:310)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.naiveCopyCompleteSubtree(DeltaDataTree.java:774)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:314)
+	at org.eclipse.core.internal.dtree.DataTreeNode.asBackwardDelta(DataTreeNode.java:54)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:48)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:88)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:832)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:519)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:43)
+	at org.eclipse.core.internal.events.NotificationManager.getDelta(NotificationManager.java:234)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:143)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:307)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:242)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.createRemoteEditProject(SystemRemoteEditManager.java:334)
+	at org.eclipse.rse.internal.files.ui.resources.SystemRemoteEditManager.getRemoteEditProject(SystemRemoteEditManager.java:284)
+	at org.eclipse.rse.internal.files.ui.Activator$InitRemoteEditJob.run(Activator.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-10-24 14:44:32.070
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/RemoteSystemsTempFiles/.project' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:257)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:310)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.naiveCopyCompleteSubtree(DeltaDataTree.java:774)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:314)
+	at org.eclipse.core.internal.dtree.DataTreeNode.asBackwardDelta(DataTreeNode.java:54)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:48)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:88)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:832)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:519)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:43)
+	at org.eclipse.core.internal.events.NotificationManager.getDelta(NotificationManager.java:234)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:143)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:4426)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:36)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-10-24 14:44:32.888
+!MESSAGE An internal error occurred during: "Building workspace".
+!STACK 0
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/RemoteSystemsTempFiles/.project' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:257)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:310)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.naiveCopyCompleteSubtree(DeltaDataTree.java:774)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:314)
+	at org.eclipse.core.internal.dtree.DataTreeNode.asBackwardDelta(DataTreeNode.java:54)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:48)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:88)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:832)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:519)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:43)
+	at org.eclipse.core.internal.events.NotificationManager.getDelta(NotificationManager.java:234)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:143)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:157)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:232)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-10-24 14:44:34.721
+!MESSAGE An internal error occurred during: "Initializing JavaScript Tooling".
+!STACK 0
+org.eclipse.core.internal.dtree.ObjectNotFoundException: Tree element '/RemoteSystemsTempFiles/.project' not found.
+	at org.eclipse.core.internal.dtree.AbstractDataTree.handleNotFound(AbstractDataTree.java:257)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:310)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.naiveCopyCompleteSubtree(DeltaDataTree.java:774)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.copyCompleteSubtree(DeltaDataTree.java:314)
+	at org.eclipse.core.internal.dtree.DataTreeNode.asBackwardDelta(DataTreeNode.java:54)
+	at org.eclipse.core.internal.dtree.DataDeltaNode.asBackwardDelta(DataDeltaNode.java:48)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.asBackwardDelta(DeltaDataTree.java:88)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:832)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:831)
+	at org.eclipse.core.internal.dtree.DeltaDataTree.reroot(DeltaDataTree.java:808)
+	at org.eclipse.core.internal.watson.ElementTree.immutable(ElementTree.java:519)
+	at org.eclipse.core.internal.events.ResourceDeltaFactory.computeDelta(ResourceDeltaFactory.java:43)
+	at org.eclipse.core.internal.events.NotificationManager.getDelta(NotificationManager.java:234)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:143)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:374)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1469)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2253)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2262)
+	at org.eclipse.wst.jsdt.core.JavaScriptCore.initializeAfterLoad(JavaScriptCore.java:2795)
+	at org.eclipse.wst.jsdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:32)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:35.083
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:35.085
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:35.086
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:35.089
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 14:44:38.446
+!MESSAGE System property socksProxyPort is not set but should be 1080.
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2017-10-24 14:45:47.244
+!MESSAGE Could not write: /home/epa.com/eve0018536/workspaces/CodeJava/.metadata/.mylyn/repositories.xml.zip
+!STACK 0
+java.io.IOException: No existe el fichero o el directorio
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1012)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoriesExternalizer.writeRepositoriesToXML(TaskRepositoriesExternalizer.java:57)
+	at org.eclipse.mylyn.internal.tasks.core.TaskRepositoryManager.saveRepositories(TaskRepositoryManager.java:420)
+	at org.eclipse.mylyn.internal.tasks.core.RepositoryExternalizationParticipant.save(RepositoryExternalizationParticipant.java:77)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.AbstractExternalizationParticipant.execute(AbstractExternalizationParticipant.java:70)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.ExternalizationManager$ExternalizationJob.run(ExternalizationManager.java:222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
